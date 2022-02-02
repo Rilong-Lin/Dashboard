@@ -1,0 +1,30 @@
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.switch {
+    margin-top: 50px;
+    background-color: rgb(226, 252, 184);
+    border-radius: 50%;
+    cursor: pointer;
+    transform:
+}
+
+.result {
+    box-sizing: border-box;
+    width: 750px;
+    padding-left: 40px;
+}
+
+.convert-button {
+    margin-left: 650px;
+    transform: translateY(-120%);
+}
+
+.convert-result {
+    transform: translate(40%, 70%);
+    font-family: serif;
+}

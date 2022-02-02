@@ -1,0 +1,66 @@
+{
+  "name": "Client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080/",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "@progress/kendo-data-query": "^1.5.5",
+    "@progress/kendo-drawing": "^1.11.0",
+    "@progress/kendo-licensing": "^1.2.1",
+    "@progress/kendo-react-animation": "^4.12.0",
+    "@progress/kendo-react-buttons": "^4.12.0",
+    "@progress/kendo-react-charts": "^4.8.0",
+    "@progress/kendo-react-data-tools": "^4.12.0",
+    "@progress/kendo-react-dateinputs": "^4.8.0",
+    "@progress/kendo-react-dropdowns": "^4.8.0",
+    "@progress/kendo-react-grid": "^4.8.0",
+    "@progress/kendo-react-inputs": "^4.8.0",
+    "@progress/kendo-react-intl": "^4.12.0",
+    "@progress/kendo-react-layout": "^4.12.0",
+    "@progress/kendo-react-popup": "^4.8.0",
+    "@progress/kendo-react-progressbars": "^4.12.0",
+    "@progress/kendo-react-treeview": "^4.8.0",
+    "@progress/kendo-theme-material": "^4.40.1",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.19.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.4",
+    "react-dom": "^17.0.2",
+    "react-dropdown": "^1.9.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

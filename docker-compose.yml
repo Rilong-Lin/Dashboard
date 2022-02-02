@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: Server
+    build:
+      dockerfile: Dockerfile
+      context: "./Server"
+    ports:
+      - '8080:8080'
+
+  client:
+    container_name: Client
+    build:
+      dockerfile: Dockerfile
+      context: ./Client
+    ports:
+      - '3000:3000'
